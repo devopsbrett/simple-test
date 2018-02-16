@@ -1,28 +1,15 @@
 {
-  "name": "testing-express-api",
+  "name": "simple-test",
   "version": "1.0.0",
-  "description": "Testing Express APIs with Supertest",
+  "description": "A simple nodejs test",
   "main": "index.js",
+  "repository": "https://github.com/devopsbrett/simple-test.git",
+  "author": "Brett Mack <brett.mack@contino.io>",
+  "license": "MIT",
   "scripts": {
     "start": "node index",
     "test": "node test | tap-spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/knownasilya/testing-express-api.git"
-  },
-  "keywords": [
-    "testing",
-    "express",
-    "api",
-    "supertest"
-  ],
-  "author": "Ilya Radchenko <ilya@burstcreations.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/knownasilya/testing-express-api/issues"
-  },
-  "homepage": "https://github.com/knownasilya/testing-express-api",
   "dependencies": {
     "express": "^4.11.2"
   },
