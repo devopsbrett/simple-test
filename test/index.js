@@ -10,7 +10,7 @@ test('Correct users returned', function (t) {
     .expect('Content-Type', /json/)
     .expect(200)
     .end(function (err, res) {
-      var expectedUsers = ['John', 'Betty', 'Hal', 'Bobby'];
+      var expectedUsers = ['John', 'Betty', 'Hal'];
 
       t.error(err, 'No error');
       t.same(res.body, expectedUsers, 'Users as expected');
