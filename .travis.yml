@@ -4,6 +4,7 @@ node_js:
 - iojs
 - '6.10'
 deploy:
+  skip_cleanup: true
   provider: script
   script: yarn deploy
   on:
